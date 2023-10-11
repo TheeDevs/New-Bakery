@@ -1,0 +1,307 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+.logo {
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: default;
+  height: .1rem;
+  
+}
+.logo img {
+  max-width: 100%;
+  height: 3rem;
+
+}
+/* Navigation Styles */
+
+.navbar a {
+  font-size: 1.1rem;
+  color: #12dbea;
+  margin-left: 2rem;
+  transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #12dbea;
+}
+
+#menu-icon {
+  font-size: 2.3rem;
+  color: #12dbea;
+  display: none;
+}
+
+/* Section Styles */
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  background: #ccffcc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.header.sticky {
+  border-bottom: 1rem solid rgba(0, 0, 0, .2);
+}
+
+/* Home Section Styles */
+#home {
+  background-color: #f9f9f9;
+}
+
+.gallery {
+  border: 1px solid #ddd;
+  margin: 5px;
+  float: left;
+  width: 300px;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* About Us Section Styles */
+#about_us {
+  background-color: #e6f7ff;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+/* Our Work Section Styles */
+#our_work {
+  background-color: #ccffcc;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  width: 100%;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  font-weight: bold;
+}
+
+/* Products Section Styles */
+#products {
+  background-color: #ffe6e6;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Orders Section Styles */
+#orders {
+  background-color: #ffd699;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #740000;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Events Section Styles */
+
+#events {
+  background-color: #d9d9d9;
+}
+
+.event-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.event-details {
+  display: flex;
+  align-items: center;
+}
+
+/* Add more styles as needed */
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Popup Styles */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Form Styles */
+.form-container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  height: 40px; /* Adjust as needed */
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #1595da;
+}
+
+/* Popup Styles */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Add more form styles as needed */
+
+/* Events Section Styles */
+#events {
+  background-color: #d9d9d9;
+}
+
+/* Map Section Styles */
+.map-details-container {
+  display: flex;
+}
+
+.our-text {
+  margin-left: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .column {
+      width: 100%;
+  }
+
+  .gallery {
+      width: 100%;
+  }
+
+  .wrapper {
+      flex-direction: column;
+  }
+}
+
+  
