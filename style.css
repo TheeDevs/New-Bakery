@@ -57,7 +57,7 @@ section {
 }
 
 .header {
-  position: fixed;
+
   top: 0;
   left: 0;
   width: 100%;
@@ -75,14 +75,7 @@ section {
 
 /* Home Section Styles */
 #home {
-  background-color: #f9f9f9;
-}
-
-.gallery {
-  border: 1px solid #ddd;
-  margin: 5px;
-  float: left;
-  width: 300px;
+  background-color: #ffe6e6;
 }
 
 .desc {
@@ -92,7 +85,7 @@ section {
 
 /* About Us Section Styles */
 #about_us {
-  background-color: #e6f7ff;
+  background-color: #ffe6e6;
 }
 
 .column {
@@ -103,7 +96,7 @@ section {
 
 /* Our Work Section Styles */
 #our_work {
-  background-color: #ccffcc;
+  background-color: #ffe6e6;
 }
 
 .slideshow-container {
@@ -142,7 +135,7 @@ img {
 
 /* Orders Section Styles */
 #orders {
-  background-color: #ffd699;
+  background-color: #ffe6e6;
 }
 
 .form-container {
@@ -165,7 +158,7 @@ button {
 /* Events Section Styles */
 
 #events {
-  background-color: #d9d9d9;
+  background-color: #ffe6e6;
 }
 
 .event-header {
@@ -356,9 +349,22 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
+  box-sizing: border-box;
+  position: relative; 
+}
+
+.header {
+  background-color: #f8f8f8; /* Add a background color for the header */
+  padding: 10px; /* Add some padding for better visibility */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
 }
 
 
